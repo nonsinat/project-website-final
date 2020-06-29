@@ -1,0 +1,291 @@
+        body{
+            text-align: center;
+        }
+        /*Color when on text */
+
+       
+          ::selection {
+            color: #333333;
+            background-color:#ffb5e8 ;
+          }
+          /*end Color when on text*/
+
+       
+
+        /*style iPhone xs*/
+        *{
+            box-sizing: border-box;
+        }
+        body{
+           margin: 0;
+          
+           font-family: "Roboto",sans-serif;
+        }
+        .image{
+            
+            flex: 1 1 20%;
+           padding: 30px;
+          
+            
+          
+           background-color:none;
+           
+        }
+      
+       .image .cate{
+           border: 1px solid #333333;
+           
+           list-style: none;
+           
+           text-align: center;
+            
+           
+       }
+       .cate .mu{
+          
+        text-decoration: none;
+        background-color: none;
+        font-size: 24px;
+        font-weight: 200;
+        
+
+
+       }
+       .cate .mu:hover{
+           background-color: #777777;
+       }
+       
+        .detail{
+           flex:1 1 80% ;
+           width: 80%;
+           padding:45px;
+          
+          
+        }
+      .all .cate .mu{
+          width: 50%;
+      }
+      
+        .all{
+
+            display: flex;
+            width: 100%;
+            height: 100vh;
+           
+        }
+        /*Quanlity*/
+       .pro{
+           
+           word-spacing: 8px;
+           color: #B6C900;
+           display: inline-flex;
+       }
+       .pro p::before{
+           content: '/';
+       }
+        .card-footer:hover{
+            color: white;
+            text-decoration: none;
+            background:linear-gradient(90deg, #ffba00 0%, #ff6c00 100%);
+        }
+        .card-footer{
+
+            text-align: center;
+        }
+        .card-footer a{
+            color: black;
+        }
+        .card-footer a:hover{
+            color: white;
+        }
+        .card .card-img-top{
+        opacity: 0.9;
+        }
+        .card .card-img-top:hover{
+            opacity:17;
+        }
+          
+.home{
+    background-color: #e8f0f2;
+    padding: 1px 90px;
+    width: 95%;
+    margin: 0px;
+    border-radius: 5px;      
+            
+  }
+  
+
+  /*Sidebar*/
+  .lol .lil li{
+      font-family: "Roboto",sans-serif;
+      width: 150%;
+      padding: 20px;
+      transition: all 0.3s ease-in-out;
+      background:#e8f0f2;
+      
+  }
+  .lil .no li:hover{
+      color: white;
+
+  }
+  .lol .lil  li:hover{
+    background:#2f7dfc;
+  
+
+      color: white;
+  }
+ /*Kind of Category*/
+.king{
+    background: #828bb3;
+    width: 140%;
+    padding-top: 10px;
+    margin-right: 10px;
+    padding-bottom: 5px;
+    color: white;
+    font-family: "Roboto",sans-serif;
+}
+
+
+/*Header file*/
+
+.header img{
+    float:left;
+    padding-left: 5px;
+    width: 100px;
+    height: 70px;
+}
+.header{
+    
+    background-color:none;
+    padding:20px;
+    text-align:center;
+    background-image:url(images.jpg);
+   
+    
+}
+.header a{
+    float:right;
+    padding:19px 20px;
+    display:block;
+    color: black;
+    text-decoration:none;
+    border: radius 5px; 
+}
+.header a:hover{
+    transition: all 0.3s ease-in-out;
+   color: #2f7dfc;
+    text-decoration: none;
+}
+.home{
+     background: #152732;
+    padding: 1px 150px;
+    width:100%;
+    margin: 0px;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    
+            
+            
+  }
+  .home3 .hh{
+      text-align: center;
+      text-decoration: none;
+      padding:15px;
+      margin: 1px 60px;
+  }
+  .hh{
+      padding: 0;
+      font-size: 17px;
+      color: white;
+  }
+  .hh:hover{
+      color: #0b7dda;
+      transition: all 0.3s ease-in-out;
+  }
+
+  .number{
+      float: right;
+      color: #828bb3;
+      margin-left: 10px;
+  }
+  .number:hover{
+      transition: all 0.3s ease-in-out;
+      color: white;
+  }
+
+  .number1{
+    color: #828bb3;
+    margin-left: 10px;
+}
+.number1:hover{
+    color:#2f7dfc;
+    transition: all 0.3s ease-in-out;
+
+}
+/* button Search*/
+
+form.search input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    
+    width: 50%;
+    background: #f1f1f1;
+  }
+  
+  form.search button {
+    
+    width: 10%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+  }
+  
+  form.search button:hover {
+    background: #0b7dda;
+  }
+  
+  form.search::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+    /*footer */
+    #myBtn {
+        display: none;
+        position: fixed;
+        bottom: 20px;
+        right: 30px;
+        z-index: 99;
+        font-size: 18px;
+        border: none;
+        outline: none;
+        background: #6610f2;
+        color: white;
+        cursor: pointer;
+        padding: 15px;
+        border-radius: 4px;
+      }
+      
+      #myBtn:hover {
+        background-color: #555;
+      }
+
+      .icon i{
+   
+          border-radius: 50%;
+          background-color: #6610f2;
+        color: white;
+      }
+      .icon i:hover{
+border-radius: 50%;
+         padding: 1%;
+          color: #6610f2;
+          background-color: white;
+      }

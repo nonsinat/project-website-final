@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <link rel = "icon" type = "image/jpg/icon" href = "logo3.jpg">
+      <title>About Us</title>
+       
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" >
+        <script src="https://kit.fontawesome.com/9339050507.js" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+        <script src="https://kit.fontawesome.com/9339050507.js" crossorigin="anonymous"></script>
+       
+
+        <style>
+
+          
+body{
+   margin: 0;
+}
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
+}
+.we{
+    font-size: 40px;
+    text-align: center;
+}
+.center{
+    padding-bottom: 50px;
+}
+
+    
+  .header{
+      
+      background-color:none;
+      padding:18px;
+      text-align:center;
+      background-image:url(images.jpg);
+      overflow: hidden;
+      
+  }
+  .header a{
+      float:right;
+      padding:19px 20px;
+      display:block;
+      color: black;
+      text-decoration:none;
+      border: radius 5px; ;
+  }
+  .header a:hover{
+     
+      text-decoration: none;
+  }
+  .header img{
+   
+      position:absolute;
+     
+     width: 110px;
+     height: 110px;
+  }
+  .header{
+      
+      background-color:none;
+      padding:20px;
+      text-align:center;
+      background-image:url(images.jpg);
+      overflow: hidden;
+      
+  }
+  .header a{
+      float:right;
+      padding:19px 20px;
+      display:block;
+      color: black;
+      text-decoration:none;
+      border: radius 5px; ;
+  }
+  .header a:hover{
+     
+      text-decoration: none;
+  }
+  .home2{
+      padding: 15px;
+      background-color: #212529;
+  }
+         
+.home{
+    background-color: #e8f0f2;
+    padding: 1px 90px;
+    width: 95%;
+    margin: 0px;
+    border-radius: 5px;      
+            
+  }
+  .blog{
+      
+      padding: 4%;
+  
+      width: 70%;
+      margin: 7%;
+    
+  } 
+  .gogo{
+    text-align: center;
+      
+      font-size: 40px;
+      width: 100%;
+      font-family:"Roboto", sans-serif;
+  }
+  .gogo1{
+    font-size: 20px;
+  }
+  
+  .blog1{
+      color: #828bb3;
+     
+      
+      text-align: center;
+      font-family:"Roboto", sans-serif;
+  }
+  .blog2{
+    font-family: Arial, Helvetica, sans-serif;
+      background-color: aliceblue;
+    padding:50px ;
+      text-align: center;
+  }
+
+
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  .center {
+
+justify-content: space-evenly;
+align-items: center;
+
+}
+
+.heart {
+color: red;
+
+animation: heart-pulse 0.9s infinite ease-out;
+}
+
+@keyframes heart-pulse {
+0% {
+transform: scale(0);
+}
+{
+transform: scale(1.2);
+}
+{
+transform: scale(0.65);
+}
+{
+transform: scale(0);
+}
+}
+
+.header img{
+    float:left;
+  
+    width: 95px;
+    height: 70px;
+}
+.header{
+    
+    background-color:none;
+    padding:20px;
+    text-align:center;
+    background-image:url(images.jpg);
+   
+    
+}
+.header a{
+    float:right;
+    padding:19px 20px;
+    display:block;
+    color: black;
+    text-decoration:none;
+    border: radius 5px; 
+}
+.header a:hover{
+    transition: all 0.3s ease-in-out;
+   color: #2f7dfc;
+    text-decoration: none;
+}
+.home{
+     background: #152732;
+    padding: 1px 150px;
+    width:100%;
+    margin: 0px;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    
+            
+            
+  }
+  .home3 .hh{
+      text-align: center;
+      text-decoration: none;
+      padding:15px;
+      margin: 1px 70px;
+  }
+  .hh{
+      padding: 0;
+      font-size: 17px;
+      color: white;
+  }
+  .hh:hover{
+      color: #0b7dda;
+      transition: all 0.3s ease-in-out;
+  }
+
+  form.search input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+   
+    width: 50%;
+    background: #f1f1f1;
+  }
+  
+  form.search button {
+    
+    width: 10%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+  }
+  
+  form.search button:hover {
+    background: #0b7dda;
+  }
+  
+  form.search::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+.card-text{
+  font-size: 15px;
+}
+.card-title{
+  text-align: center;
+}
+.p3{
+
+}
+
+
+  
+
+
+        </style>
+
+
+
+        
+        </head>
+        <body>
+          <div class="yoyo"> 
+           
+      <div class="header" style="padding-top:40px;">
+        
+        <img style="width: 8.5%;height: 15%;position: absolute;left: 10px;top: 8px;" src="logo4.jpg"/>
+        <div class="hhe">
+        <a href="Test Register/register.html" target="blank1">Register</a>
+        
+        <a href="about us.html">About Us</a>
+        <a href="#testi"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+      </div>
+      <div class="ser">  
+        <form class="search" action="/action_page.php" >
+          <input type="text" placeholder="Search.." name="search">
+          <button type="submit" ><i class="fa fa-search"></i></button>
+        </form>
+    </div>
+        
+        </div>
+     <section class="home">
+            
+            <div class="home3">
+               <a class="hh" href="index.html" target="__blank">Home </a>
+               <a class="hh" href="index.html" target="blank">Catagory</a>
+               <a class="hh" href="#">Company</a>
+               <a class="hh" href="contact.html" target="blank4">Contact</a>
+               
+            </div>
+     </section>
+
+             <div class="blog">
+              <div class="gogo">
+                     <p>We're team of Professional people who loves what they do. </p> 
+                     
+                     <div class="gogo1" > 
+                       
+                      <div class="center">
+                         <marquee behavior="slide" width="56%" style="float:right">
+                        <i class="fa fa-heart heart" aria-hidden="true"></i>
+                   
+                             <a  href="#" class="master">We love that guy</a>
+                             <i class="fa fa-heart heart" aria-hidden="true"></i>
+                      
+                            </marquee>
+                          </div>
+  
+  
+                      
+                     </div>
+                    
+              </div>
+          
+             
+             
+             
+          </div>
+
+            <!--Card Information-->
+            <div class="allone" style="background-color:aliceblue;">
+                <div class="meet" style="text-align: center;padding-bottom:4%;">
+                <h1>MEET OUR TEAM</h1>
+            </div>
+         <div class="cardgog" style="display: inline-flex;margin: 1px 30px; padding-bottom: 10%;">
+          <div class="card" style="width: 18rem;">
+                            
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="images/img/about1.jpg" class="card-img-top" alt="Reaksa">
+                    </div>
+                    <div class="flip-card-back">
+                        <h1>Poen PoanReakSa</h1> 
+                        <p> WEB DEVELOPER</p> 
+                        <p>We love that guy</p>
+                    </div>
+                    </div>
+                </div>
+            <div class="card-body">
+              <h5 class="card-title">Pean PoanReakSa</h5>
+              <p class="card-text">Hi,I'm PoanReakSa, I'm a Student at <span class="p2" style="color: red;text-decoration: underline;">NIPTICT </span> <span class="p3" style="color: #828bb3;">(National institute of POSTS, TELECOMS & ICT) </span> & I'm Web Developer in this website.  </p>
+              <a href="#" class="btn btn-primary" style="width: 90%;">Contact Us</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+                            
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="images/img/about4.jpg" class="card-img-top" alt="Met">
+                </div>
+                <div class="flip-card-back">
+                    <h1>Ngel Met</h1> 
+                    <p>WEB DEVELOPER</p> 
+                    <p>We love that guy</p>
+                </div>
+                </div>
+            </div>
+        <div class="card-body">
+          <h5 class="card-title">Ngel Met </h5>
+          <p class="card-text">Hi,I'm Met, I'm a Student at <span class="p2" style="color: red;text-decoration: underline;">NIPTICT </span> <span class="p3" style="color: #828bb3;">(National institute of POSTS, TELECOMS & ICT) </span> & I'm Web Developer in this Website.  </p>
+          <a href="#" class="btn btn-primary" style="width: 90%;">Contact Us</a>
+        </div>
+      </div>
+
+          <div class="card" style="width: 18rem;">
+                            
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="images/img/about2 copy.jpg" class="card-img-top" alt="Sokleap">
+                    </div>
+                    <div class="flip-card-back">
+                        <h1>Som Sokleap</h1> 
+                        <p>WEB DEVELOPER</p> 
+                        <p>We love that guy</p>
+                    </div>
+                    </div>
+                </div>
+            <div class="card-body">
+              <h5 class="card-title">Som Sokleap</h5>
+              <p class="card-text">Hi,I'm Sokleap, I'm a Student at <span class="p2" style="color: red;text-decoration: underline;">NIPTICT </span> <span class="p3" style="color: #828bb3;">(National institute of POSTS, TELECOMS & ICT) </span> & I'm Web Developer in this Website.  </p>
+              <a href="#" class="btn btn-primary" style="width: 90%;">Contact Us</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+                            
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="images/img/about3.jpg" class="card-img-top" alt="ChhunHeang">
+                </div>
+                <div class="flip-card-back">
+                    <h1>Pin ChhunHeang</h1> 
+                    <p>WEB DEVELOPER</p> 
+                    <p>We love that guy</p>
+                </div>
+                </div>
+            </div>
+        <div class="card-body">
+          <h5 class="card-title">Pin ChhunHeang</h5>
+          <p class="card-text">Hi,I'm ChhunHeang, I'm a Student at <span class="p2" style="color: red;text-decoration: underline;">NIPTICT </span> <span class="p3" style="color: #828bb3;">(National institute of POSTS, TELECOMS & ICT) </span> & I'm Web Developer in this Website.  </p>
+          <a href="#" class="btn btn-primary" style="width: 90%;">Contact Us</a>
+        </div>
+      </div>
+
+          <div class="card" style="width: 19rem;">
+                            
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="images/img/about5.jpg" class="card-img-top" alt="Met">
+                    </div>
+                    <div class="flip-card-back">
+                        <h1>Non Sinat</h1> 
+                        <p>SUPPORT & DESIGN</p> 
+                        <p>We love that guy</p>
+                    </div>
+                    </div>
+                </div>
+            <div class="card-body">
+              <h5 class="card-title">Non Sinat</h5>
+              <p class="card-text">Hi,I'm Sinat, I'm a Student at <span class="p2" style="color: red;text-decoration: underline;">NIPTICT </span><span class="p3" style="color: #828bb3;">(National institute of POSTS, TELECOMS & ICT) </span> & I'm a Designer this Website. <span id="full" style="text-decoration: underline; margin-left: 70px;">Hope U enjoy<3</span> </p>
+              <a href="#" class="btn btn-primary" style="width: 90%;">Contact Us</a>
+            </div>
+          </div>
+
+</div>
+
+</div>
+
+
+</div>
+           <!-- Footer -->
+           <footer class="page-footer font-small unique-color-dark">
+
+            <div style="background-color: #6351ce;">
+              <div class="container">
+          
+                <!-- Grid row-->
+                <div class="row py-4 d-flex align-items-center">
+          
+                  <!-- Grid column -->
+                  <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+                    <h6 class="mb-0" style="color: white;font-size: 20px;">Our Brands</h6>
+                  </div>
+                  <!-- Grid column -->
+          
+                  <!-- Grid column -->
+                  <div class="col-md-6 col-lg-7 text-center text-md-right">
+                    <div class="fo" style="right: -400px;top: -20px;position:absolute;">
+
+                   
+                    <!-- Facebook -->
+                    <a class="fb-ic">
+                      <i style="color: white;" class="fab fa-facebook-f white-text mr-4"> </i>
+                    </a>
+                    <!-- Twitter -->
+                    <a class="tw-ic">
+                      <i style="color: white;" class="fab fa-twitter white-text mr-4"> </i>
+                    </a>
+                    <!-- Google +-->
+                    <a class="gplus-ic" >
+                      <i style="color: white;" class="fab fa-google-plus-g white-text mr-4"> </i>
+                    </a>
+                    <!--Linkedin -->
+                    <a class="li-ic">
+                      <i style="color: white;" class="fab fa-linkedin-in white-text mr-4"> </i>
+                    </a>
+                    <!--Instagram-->
+                    <a class="ins-ic">
+                      <i style="color: white;" class="fab fa-instagram white-text"> </i>
+                    </a>
+                    </div>
+                  </div>
+                  <!-- Grid column -->
+          
+                </div>
+                <!-- Grid row-->
+          
+              </div>
+            </div>
+          
+            <!-- Footer Links -->
+            <div class="container text-center text-md-left mt-5">
+          
+              <!-- Grid row -->
+              <div class="row mt-3">
+          
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          
+                  <!-- Content -->
+                  <h6 class="text-uppercase font-weight-bold">CI Stress</h6>
+                  <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 120px;">
+                  <p>CI Stress is always care all our people.You guys can order everything without going outside to prevent from covid 19.Stay home Stay safe!</p>
+          
+                </div>
+                <!-- Grid column -->
+          
+                <!-- Grid column -->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          
+                  <!-- Links -->
+                  <h6 class="text-uppercase font-weight-bold">Products</h6>
+                  <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 90px;">
+                  <p>
+                    <a href="#!">Technology</a>
+                  </p>
+                  <p>
+                    <a href="#!">Kid</a>
+                  </p>
+                  <p>
+                    <a href="#!">Chicken</a>
+                  </p>
+                  <p>
+                    <a href="#!">Clothes</a>
+                  </p>
+          
+                </div>
+                <!-- Grid column -->
+          
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          
+                  <!-- Links -->
+                  <h6 class="text-uppercase font-weight-bold">Useful links</h6>
+                  <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 110px;">
+                  <p>
+                    <a href="#!">Your Account</a>
+                  </p>
+                  <p>
+                    <a href="#!">Become an Affiliate</a>
+                  </p>
+                  <p>
+                    <a href="#!">Shipping Rates</a>
+                  </p>
+                  <p>
+                    <a href="#!">Help</a>
+                  </p>
+          
+                </div>
+                <!-- Grid column -->
+          
+                <!-- Grid column -->
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          
+                  <!-- Links -->
+                  <h6 class="text-uppercase font-weight-bold">Contact</h6>
+                  <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 75px;">
+                  <p>
+                    <i class="fas fa-home mr-3"></i>Phnom Penh, St 22, Cambodia</p>
+                  <p>
+                    <i class="fas fa-envelope mr-3"></i>Diamondshop@gmail.com.kh</p>
+                  <p>
+                    <i class="fas fa-phone mr-3"></i> + 00 000 000 00</p>
+                  <p>
+                    <i class="fas fa-print mr-3"></i> + 01 000 000 00</p>
+          
+                </div>
+                <!-- Grid column -->
+          
+              </div>
+              <!-- Grid row -->
+          
+            </div>
+            <!-- Footer Links -->
+          
+            <!-- Copyright -->
+            <div class="footer-copyright text-center py-3">© 2020 Copyright:
+              <a href="https://mdbootstrap.com/"> Diamond Shop.com.kh</a>
+            </div>
+            <!-- Copyright -->
+          
+          </footer>
+          <!-- Footer -->
+          
+
+      <script>
+        var div = document.getElementById("full");
+
+function getRandomColor() {
+    var letters = '0123456789ABCDEF';
+    var color = '#';
+    for (var i = 0; i < 6; i++ ) {
+        color += letters[Math.floor(Math.random() * 16)];
+    }
+    return color;
+}
+
+function changeColor(){
+  div.style.color= getRandomColor();
+}
+
+setInterval(changeColor,1000);
+      </script>
+    </body>
+</html>
